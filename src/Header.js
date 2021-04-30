@@ -6,18 +6,19 @@ export default class Header extends React.Component {
     return (
       <>
       <nav>
-          <div class="logo">CASCASE</div>
-          <div class="menu">
-              <ul>
-              <li><a href="home">Home</a></li>
-              <li><a href="service">Service</a></li>
-              <li><a href="galary">Galary</a></li>
-              <li><a href="about us">About us</a></li>
-              <li><a href="contact">Contact</a></li>
-              </ul>
+          
+          
+          <ul>
+          <li class="logo"><a href="cascase">CASCASE</a></li> 
+          <li><a href="contact">Contact</a></li>
+          <li><a href="about">About us</a></li>
+          <li><a href="galary">Galary</a></li>
+          <li><a href="service">Service</a></li>
+          <li><a href="home">Home</a></li>
+          </ul>
 
-          </div>
-      </nav>
+      
+  </nav>
      
     
 
