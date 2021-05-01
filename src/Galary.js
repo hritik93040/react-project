@@ -8,9 +8,11 @@ export default class Galary extends React.Component {
     return (
       <>
       
-      <Header />
+      <Header /> <br /> <br /> <br />
       
         <h1>This is Galary Page</h1>
+        <br /> <br /> <br /> <br /> <br /> <br /> <br /><br /> <br /><br /><br /><br /><br /><br /><br /><br />
+
 
 
         
