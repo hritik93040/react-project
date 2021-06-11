@@ -8,50 +8,72 @@ export default class Footer extends React.Component {
       
       
 
+	  <footer id="primary-footer">
 
-
-        
-	<footer class="site-footer">
-		<div class = "container">
-
-			<div class="grid-container">
-				<div class="grid-item">
-					
-					<img src = "https://bsmedia.business-standard.com/_media/bs/img/article/2020-07/28/full/1595904030-4016.jpg " class = "logo-img"/>
-
+	<div class="container footer-widget-area">
+		<div class="row">
+			<div class="col-md-4 p-3">
+				<div class="footer-widget-heading">
+					<h4>Fox Maya</h4>
 				</div>
-
-				<div class="grid-item inner-grid-container">
-					
-					<div class="grid-item"><a href="">About Us</a></div>   
-					<div class="grid-item"><a href="">Health and Social Care</a></div>   
-					<div class="grid-item"><a href="">Privacy Policy</a></div>   
-					<div class="grid-item"><a href="">Blog</a></div>   
-					<div class="grid-item"><a href="">Contact us</a></div>   
-					<div class="grid-item"><a href="">Finance</a></div>
-					<div class="grid-item"><a href="">Cookie Policy</a></div>   
-					<div class="grid-item"><a href="">Jobs</a></div>   
-
-
-				</div>
-
-				<div class="grid-item">
-					<div class = "social-buttons">
-						<a href= ""><i class="fa fa-instagram"></i></a>
-						<a href= ""><i class="fa fa-facebook"></i></a>
-						<a href= ""><i class="fa fa-linkedin"></i></a>
-						<a href= ""><i class="fa fa-twitter"></i></a>
-					</div>
-				</div>   
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				<div class="footer-social-icon">
+                                <div class="social-title">Follow us:</div>
+                                <a href="https://www.facebook.com/foxmayaban/"><i class="fab fa-facebook-f circle-icon"></i></a>
+                                <a href="https://www.instagram.com/foxmayadigital/"><i class="fab fa-instagram circle-icon"></i></a>
+                                <a href="https://twitter.com/foxmayadigital"><i class="fab fa-twitter circle-icon"></i></a>
+                                <a href="https://www.linkedin.com/in/ban-sharma/"><i class="fab fa-linkedin-in circle-icon"></i></a>
+                            </div>
 			</div>
-			<hr />
-
-			<p>Copyright © 2021 | Redempt Ltd | Redempt Resourcing | Redempt Health ltd All rights reserved</p>
-
+			<div class="col-md-4 p-3">
+				<div class="footer-widget-heading">
+					<h4>Popular Posts</h4>
+				</div>
+				      <ul class="linkediting">
+                        <li><a href="#"><i class="fa fa-angle-right"></i> Free Bootstrap 4 Templates</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i> Bootstrap Footer Templates</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i> Bootstrap Portfolio Themes</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i> Bootstrap Hero</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i> Bootstrap 4 Tutorial</a></li>
+	                  </ul>
+				</div>
+			<div class="col-md-4 p-3">
+				<div class="footer-widget-heading">
+					<h4>Quick Links</h4>
+				</div>
+				<ul class="linkediting">
+                        <li><a href="#"><i class="fa fa-angle-right"></i> About Us</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i> Contact Us</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i> My Portfolio</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i> Testimonials</a></li>
+	                  </ul>
+			</div>
 		</div>
-	</footer>
-     
-      
+	</div>
+	
+    <hr />
+
+	<div class="copyright-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="copyright-text text-left">
+                            <p>Designed by <a href="https://foxmaya.com/about/">Ban Sharma</a></p>
+                        </div>
+				</div>
+				<div class="col-md-6">
+					<div class="footer-menus text-right">
+						<ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Condition</a></li>
+	                  </ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</footer>
      
       
       

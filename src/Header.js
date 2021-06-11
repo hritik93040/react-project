@@ -5,21 +5,34 @@ export default class Header extends React.Component {
   render() {
     return (
       <>
-      <nav>
-          
-          
-          <ul>
-          <li class="logo"><a href="cascase">CASCASE</a></li> 
-          <li><a href="contact">Contact</a></li>
-          <li><a href="about">About us</a></li>
-          <li><a href="galary">Galary</a></li>
-          <li><a href="service">Service</a></li>
-          <li><a href="home">Home</a></li>
-          </ul>
+      <nav class="navbar navbar-expand-md" style={{backgroundColor:'white'}}>
+  <a class="navbar-brand" href="#">Green</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Galary</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Service</a>
+      </li>
 
-      
-  </nav>
-     
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+
+        
+      </li>    
+    </ul>
+  </div>  
+</nav>
     
 
 
