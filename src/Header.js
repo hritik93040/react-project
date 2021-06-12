@@ -13,20 +13,20 @@ export default class Header extends React.Component {
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a class="nav-link" href="#">Home</a>
+        <a class="nav-link" href="/Home">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Galary</a>
+        <a class="nav-link" href="/Galary">Galary</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="/About">About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Service</a>
+        <a class="nav-link" href="/Service">Service</a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link" href="/Contact">Contact</a>
 
         
       </li>    

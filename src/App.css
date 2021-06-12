@@ -152,13 +152,13 @@ a:hover nav-link {
   font-size: 30px;
 }
 /*text*/
-.h {
+.about {
   text-align: center;
   margin-top: 25px;
   color: darkgreen;
 }
 
-.h2 {
+.save {
   text-align: center;
   color: darkgreen;
 }
@@ -231,3 +231,52 @@ a:hover nav-link {
   color: green;
   
 }
+
+/*About page start*/
+
+.heading1{
+  text-align: center;
+  font-weight: bold;
+}
+.line1{
+  width: 10%;
+  text-align: center;
+  background-color: darkgreen;
+  height: 1px;
+  margin-top: -5px;
+
+}
+
+
+.aboutpic{
+  height: 580px;
+  width: 80%;
+}
+
+@media screen and (max-width: 800px) {
+  .aboutpic {
+    height: 500px;
+    width: 80%;
+    margin-left: 40px;
+  }
+}
+
+.savenature{
+  text-align: left;
+  font-weight: bolder;
+  color: darkgreen;
+}
+
+.abouttext{
+  font-size:15px;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+  
+ 
+ 
+
+
+
+

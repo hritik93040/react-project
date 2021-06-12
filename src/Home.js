@@ -46,7 +46,7 @@ export default class Home extends React.Component {
           </div>
         </div>
 
-        <h1 class="h">About Green</h1>
+        <h1 class="about">About Green</h1>
         <br />
 
         <div class="container">
@@ -58,7 +58,7 @@ export default class Home extends React.Component {
               />
             </div>
             <div class="col-sm-6">
-              <h1 class="h2">Together We Can Save Planet</h1>
+              <h1 class="save">Together We Can Save Planet</h1>
 
               <p>
                 There are around 400,000 plants species recorded in the world
